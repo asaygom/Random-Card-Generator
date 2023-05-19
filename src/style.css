@@ -1,8 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
+
+button {
+  height: fit-content;
+}
+
 .card {
   width: 384px;
   height: 520px;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardSuitTop p,
+.cardSuitBottom p {
+  font-size: 80px;
+  padding: 0 20px 0 20px;
+  margin: 0;
+}
+
+.cardNumberPosition p {
+  font-size: 140px;
+  padding: 0 20px 0 20px;
+  margin: auto;
+}
+
+.cardNumberPosition {
+  display: flex;
+  align-items: center;
+}
+
+.cardSuitBottom {
+  display: flex;
+  justify-content: end;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
 }
